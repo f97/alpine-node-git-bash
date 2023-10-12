@@ -8,5 +8,3 @@ RUN apk add --no-cache \
     git \
     bash \
     nodejs
-
-RUN apk --purge del apk-tools
