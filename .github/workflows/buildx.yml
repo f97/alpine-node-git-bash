@@ -37,7 +37,7 @@ jobs:
         id: prepare
         run: |
           DOCKER_IMAGE=alrun/node-alpine-git-bash
-          GHCR_DOCKER_IMAGE=ghcr.io/f97/docker-node-alpine-git-bash
+          GHCR_DOCKER_IMAGE=ghcr.io/f97/alpine-node-git-bash
 
           TEMP="${{ matrix.docker-file.tags }}"
           TAGZ=($TEMP)
