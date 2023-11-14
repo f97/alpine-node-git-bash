@@ -8,4 +8,3 @@ RUN apk -U upgrade \
     && apk add --no-cache \
     git \
     bash \
-    go \

@@ -9,4 +9,3 @@ RUN apk -U upgrade \
     git \
     bash \
     nodejs \
-    go \
